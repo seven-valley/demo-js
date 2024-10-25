@@ -49,6 +49,16 @@ function afficher(){
 }
 </script>
 ```
+## Bonne pratique :heart_eyes:
+```html
+<button id="btnAfficher">GO</button>
+<script>
+document.getElementById('btnAfficher').onclick = () =>{
+   console.log('afficher');
+}
+</script>
+```
+
 # 5 - Lecture de la saisie utilisateur
 ```html
 <input id="nom" placeholder="Votre Nom ICI">
