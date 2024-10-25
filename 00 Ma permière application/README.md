@@ -3,7 +3,21 @@
  const pi= 3.14;
  const personne ={nom:'Brad',prenom:'PITT'};
  const fruits =['pomme','poire','cerise'];
+ let x = 2;
 ```
+## la portée limité du let
+```js
+let age = 18
+ if (age >18){
+    let info ='ok';
+ }
+ console.log(info);
+ for (let i=0;i < 3;i++){
+    console.log(i);
+ }
+ console.log(i);
+```
+
 
 # Lecture  dans le DOM
 ```html
