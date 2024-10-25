@@ -1,11 +1,11 @@
-# Les variables
+# 1 - Les variables
 ```js
  const pi= 3.14;
  const personne ={nom:'Brad',prenom:'PITT'};
  const fruits =['pomme','poire','cerise'];
  let x = 2;
 ```
-## La portée limité du let
+## La portée limitée du let
 ```js
 let age = 18
  if (age >18){
@@ -19,7 +19,7 @@ let age = 18
 ```
 
 
-# Lecture dans le DOM
+# 2- Lecture dans le DOM
 ```html
 <div id="demo">Ola</div>
 
@@ -30,7 +30,7 @@ let age = 18
 </script>
 ```
 
-# Ecriture dans le DOM
+# 3 - Ecriture dans le DOM
 ```html
 <div id="demo">Ola</div>
 
@@ -40,7 +40,7 @@ let age = 18
 </script>
 ```
 
-# Le trigger ou le boutton
+# 4 - Le trigger ou le bouton
 ```html
 <button onclick="afficher()">GO</button>
 <script>
@@ -49,4 +49,16 @@ function afficher(){
 }
 </script>
 ```
-
+# 5 -Lecture de la saisie utilisateur
+```html
+<input id="nom" placeholder="Votre Prénom ICI">
+<br><br>
+<button onclick="afficher()">GO</button>
+<script>
+function afficher(){
+    // lecture
+    let info = document.getElementById('nom').value;
+    console.log(info);
+}
+</script>
+```
