@@ -64,17 +64,21 @@ function afficher(){
 ```
 # 6 - Une application qui affiche le nom
 ```html
-<input id="nom" placeholder="Votre Prénom ICI">
+<input id="nom" placeholder="Votre Nom ICI">
 <br><br>
 <button onclick="afficher()">GO</button>
 <br><br>
 <h1 id="titre1"></h1>
 <script>
 function afficher(){
-    let info = document.getElementById('nom').value; // lecture
-    document.getElementById('nom').value=''; // vider le champ input
-    info = info.toUpperCase();  // traitement
-    document.getElementById('titre1').innerHTML = info; // afficher
+    // lecture
+    let info = document.getElementById('nom').value;
+    // vider le champ input
+    document.getElementById('nom').value='';
+    // traitement
+    info = info.toUpperCase();
+    // afficher
+    document.getElementById('titre1').innerHTML = info;
 }
 </script>
-```a
+```
