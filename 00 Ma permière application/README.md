@@ -25,8 +25,12 @@ let age = 18
 
 <script>
     // lecture
-    let str = document.getElementById('demo').innerHTML;
-    console.log(str);
+
+    let str = 
+    
+    document.getElementById('demo').innerHTML;
+   
+   console.log(str);
     
 </script>
 ```
