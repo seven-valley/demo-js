@@ -64,7 +64,7 @@ function afficher(){
 ```
 # 6 - Une application qui affiche le nom
 ```html
-<input id="nom" placeholder="Votre Prénom ICI">
+<input id="nom" placeholder="Votre Nom ICI">
 <br><br>
 <button onclick="afficher()">GO</button>
 <br><br>
