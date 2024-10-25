@@ -1,11 +1,11 @@
-# les variables
+# Les variables
 ```js
  const pi= 3.14;
  const personne ={nom:'Brad',prenom:'PITT'};
  const fruits =['pomme','poire','cerise'];
  let x = 2;
 ```
-## la portée limité du let
+## La portée limité du let
 ```js
 let age = 18
  if (age >18){
@@ -19,7 +19,7 @@ let age = 18
 ```
 
 
-# Lecture  dans le DOM
+# Lecture dans le DOM
 ```html
 <div id="demo">Ola</div>
 
@@ -31,9 +31,7 @@ let age = 18
 </script>
 ```
 
-
-
-# Lecture et Ecriture dans le DOM
+# Ecriture dans le DOM
 ```html
 <div id="demo">Ola</div>
 
