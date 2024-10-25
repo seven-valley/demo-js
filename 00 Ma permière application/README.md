@@ -51,7 +51,7 @@ function afficher(){
 ```
 # 5 -Lecture de la saisie utilisateur
 ```html
-<input id="nom" placeholder="Votre Prénom ICI">
+<input id="nom" placeholder="Votre Nom ICI">
 <br><br>
 <button onclick="afficher()">GO</button>
 <script>
