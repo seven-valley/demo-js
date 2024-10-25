@@ -49,7 +49,7 @@ function afficher(){
 }
 </script>
 ```
-# 5 -Lecture de la saisie utilisateur
+# 5 - Lecture de la saisie utilisateur
 ```html
 <input id="nom" placeholder="Votre Nom ICI">
 <br><br>
@@ -59,6 +59,26 @@ function afficher(){
     // lecture
     let info = document.getElementById('nom').value;
     console.log(info);
+}
+</script>
+```
+# 6 - Une application qui affiche le nom
+```html
+<input id="nom" placeholder="Votre Prénom ICI">
+<br><br>
+<button onclick="afficher()">GO</button>
+<br><br>
+<h1 id="titre1"></h1>
+<script>
+function afficher(){
+    // lecture
+    let info = document.getElementById('nom').value;
+    // vider le champ input
+    document.getElementById('nom').value='';
+    // traitement
+    info = info.toUpperCase();
+    // afficher
+    document.getElementById('titre1').innerHTML = info;
 }
 </script>
 ```
